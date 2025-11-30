@@ -1,0 +1,59 @@
+# These files will be ignored by github.
+# Made this EXTRA bulky JIC expansion happens ;).
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environments
+.env
+.env.*
+venv/
+env/
+.venv/
+pyvenv.cfg
+
+# --- Docker ---
+.dockerignore
+docker-compose.yml
+.env.docker
+
+# --- Secrets ---
+*.env
+.env.local
+.env.production
+secret*
+secrets/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+*.out
+
+# --- Build / Packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- Bytecode / Cache ---
+.cache/
+pytest_cache/
+
+# --- Project Specific ---
+# (Ensures no accidental backups or temp files)
+*.bak
+*.tmp

@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
 
-# Environment variable will be set on Render, not here
+# ENV. VAR on *Render*
 EXPOSE 8000
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port",  "8000"]

@@ -10,4 +10,5 @@ class CheckResponse(BaseModel):
     details: Optional[str] = None
     domain_age: Optional[str] = None
     ssl_status: Optional[str] = None
+    wallet_required: Optional[str] = None
     disclaimer: str

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router as api_router
+from app.api.routes_ai import router as ai_router
 
 app = FastAPI(
     title="SAFU or NOT - Link Checker",
@@ -8,7 +9,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS
 origins = [
     "*",
     "https://safuornot.com",
@@ -25,5 +25,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Routers
 app.include_router(api_router)
+app.include_router(ai_router)

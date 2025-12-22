@@ -1,0 +1,67 @@
+SAFU or NOT Docs
+
+Welcome to the quick rundown of how this little tool works.
+Nothing fancy. No complicated nonsense. Just straight info so you know what you are dealing with.
+
+What this tool does
+
+You drop a link into the box
+You click Check Safety
+We scan the link using a few different checks
+Then we give you a clean and simple report before you decide to visit the site
+
+What we check
+General Threats
+
+We use public threat detection services to see if the site is known for malware or phishing attempts
+
+Domain Info
+
+We look at the domain age to see if it was just created out of nowhere or has been around for a while
+
+SSL Status
+
+We try to see if the site has a valid certificate
+If the SSL info is blocked or unavailable we say Unknown
+No guessing here
+
+Wallet Connection Check
+
+We look for connect wallet buttons or common Web3 scripts
+If a site looks like it wants your crypto wallet we tell you up front
+
+Redirect Behavior
+
+Some sites try to bounce you through multiple places
+If we detect a redirect pattern we let you know
+
+Phishing Pattern Detection
+
+We check the URL for suspicious keywords or tricks that scammers love to use
+If something smells off we tell you straight
+
+What this tool does not do
+
+We do not guarantee safety
+We do not replace your own judgment
+We do not give financial legal or security advice
+Always DYOR no matter what
+
+Example Output
+
+Scanning example dot com
+Result SAFE
+No known threats
+Domain age Four years
+SSL Valid
+Wallet Connection Not Required
+Redirects None
+Phishing Patterns None Found
+
+Disclaimer
+
+This tool is meant to provide quick informational checks
+It is not perfect
+It is not magic
+It is here to help you stay aware before you click anything
+Always be careful online and always verify everything on your own
